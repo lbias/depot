@@ -9,6 +9,20 @@ zh-CN:
         delimiter: ","
         format:    "%u%n"
 
+  activerecord:
+    models:
+      order:       "订单"
+    attributes:
+      order:
+        address:   "地址"
+        name:      "姓名"
+        email:     "电子邮件"
+        pay_type:  "支付方式"
+    errors:
+      messages:
+        inclusion: "已被销售一空"
+        blank:     "栏目不能为空"
+
   errors:
     template:
       body:        "下栏有几个问题："
@@ -34,3 +48,17 @@ zh-CN:
       title:       "购物车"
       empty:       "清空购物车"
       checkout:    "前往结账"
+
+
+  orders:
+    new:
+      legend:       "请输入您的个人信息"
+    form:
+      name:         "姓名"
+      address_html: "地址"
+      email:        "电子邮件"
+      pay_type:     "支付方式"
+      pay_prompt_html: "选择一种支付方式"
+      submit:       "下单"
+
+  thanks:          "感谢您选择在新华书店购物"
